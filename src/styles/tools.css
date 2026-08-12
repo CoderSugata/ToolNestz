@@ -46,8 +46,8 @@
 }
 
 .calc-btn-action {
-  background: var(--accent-cute-pink-light);
-  color: var(--accent-cute-pink);
+  background: var(--accent-pink-light);
+  color: var(--accent-pink);
   font-weight: 700;
 }
 

@@ -11,7 +11,7 @@ const THEMES = {
   emoji: [
     "✨ Happy vibes 🚀 spark joy 🌈 sunshine sprinkles 🦄 unicorn dreams ⭐ stellar bright!",
     "🎉 Party balloon 🍩 sweet donut 🍦 ice cream smile 🎈 floating high 🎨 color magic!",
-    "🧁 Cupcake sweetness 🌸 blossom spring 🐥 cute chick 🍕 pizza slice 🌟 shining bright!",
+    "🧁 Cupcake sweetness 🌸 blossom spring 🐥 yellow chick 🍕 pizza slice 🌟 shining bright!",
     "🍓 Strawberry sweet 🎈 celebration 🚀 blast off 🤖 robot buddy 🎨 artistic fun!"
   ],
   foodie: [

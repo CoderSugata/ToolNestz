@@ -39,7 +39,7 @@ export function PercentageCalculator() {
 
       {/* Box 2: X is what % of Y */}
       <div style={{ background: 'var(--bg-tertiary)', padding: '1.25rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
-        <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--accent-cute-pink)' }}>2. X is what percent of Y?</h3>
+        <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--accent-pink)' }}>2. X is what percent of Y?</h3>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', alignItems: 'center' }}>
           <div className="output-box" style={{ marginTop: 0, gridColumn: 'span 2' }}>
             <div className="output-box-header">{val1} IS WHAT % OF {val2}?</div>
@@ -51,7 +51,7 @@ export function PercentageCalculator() {
 
       {/* Box 3: % Increase / Decrease */}
       <div style={{ background: 'var(--bg-tertiary)', padding: '1.25rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
-        <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--accent-cute-teal)' }}>3. Percentage Change (From X to Y)</h3>
+        <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--accent-teal)' }}>3. Percentage Change (From X to Y)</h3>
         <div className="output-box" style={{ marginTop: 0, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div>
             <div className="output-box-header">PERCENTAGE DIFFERENCE</div>

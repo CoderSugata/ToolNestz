@@ -4,7 +4,7 @@ import { Play, Pause, RotateCcw, Brain, Coffee, Sparkles } from 'lucide-react';
 const MODES = {
   work: { label: 'Focus Work', duration: 25 * 60, color: 'var(--accent-primary)', icon: Brain },
   shortBreak: { label: 'Short Break', duration: 5 * 60, color: 'var(--accent-success)', icon: Coffee },
-  longBreak: { label: 'Long Break', duration: 15 * 60, color: 'var(--accent-cute-pink)', icon: Sparkles }
+  longBreak: { label: 'Long Break', duration: 15 * 60, color: 'var(--accent-pink)', icon: Sparkles }
 };
 
 export function PomodoroTimer() {

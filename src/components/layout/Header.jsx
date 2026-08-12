@@ -33,7 +33,7 @@ export function Header({ currentToolId, onNavigateHome, onOpenSearch, isDark, to
               fontSize: '1.4rem',
               fontWeight: 800,
               letterSpacing: '-0.02em',
-              background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-cute-pink))',
+              background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-pink))',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent'
             }}>
@@ -75,7 +75,7 @@ export function Header({ currentToolId, onNavigateHome, onOpenSearch, isDark, to
             title={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
             style={{ borderRadius: 'var(--radius-full)' }}
           >
-            {isDark ? <Sun size={18} color="var(--accent-cute-amber)" /> : <Moon size={18} color="var(--accent-primary)" />}
+            {isDark ? <Sun size={18} color="var(--accent-amber)" /> : <Moon size={18} color="var(--accent-primary)" />}
           </button>
         </div>
       </div>

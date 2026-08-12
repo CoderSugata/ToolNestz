@@ -66,7 +66,7 @@ export function AgeCalculator() {
         <>
           <div className="output-box" style={{ marginTop: 0, textAlign: 'center', padding: '1.5rem' }}>
             <div className="output-box-header">YOUR EXACT AGE</div>
-            <div className="output-value" style={{ fontSize: '2.2rem', color: 'var(--accent-cute-pink)' }}>
+            <div className="output-value" style={{ fontSize: '2.2rem', color: 'var(--accent-pink)' }}>
               {ageData.years} Years, {ageData.months} Months, {ageData.days} Days
             </div>
             <div style={{ marginTop: '0.75rem', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>

@@ -54,7 +54,7 @@ export function SearchModal({ isOpen, onClose, searchQuery, setSearchQuery, resu
                   <div style={{ flex: 1 }}>
                     <div style={{ fontWeight: 700, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                       {tool.title}
-                      {isFavorite(tool.id) && <Star size={14} fill="var(--accent-cute-amber)" color="var(--accent-cute-amber)" />}
+                      {isFavorite(tool.id) && <Star size={14} fill="var(--accent-amber)" color="var(--accent-amber)" />}
                     </div>
                     <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>{tool.description}</div>
                   </div>

@@ -19,7 +19,7 @@ export function ToolCard({ tool, isFavorite, onToggleFavorite, onClick }) {
           }}
           title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
         >
-          <Star size={18} fill={isFavorite ? 'var(--accent-cute-amber)' : 'none'} />
+          <Star size={18} fill={isFavorite ? 'var(--accent-amber)' : 'none'} />
         </button>
       </div>
 

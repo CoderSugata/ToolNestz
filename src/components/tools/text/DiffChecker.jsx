@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export function DiffChecker() {
   const [text1, setText1] = useState('ToolNestz is a tools hub.\nIt includes calculators.\nFast and easy to use!');
-  const [text2, setText2] = useState('ToolNestz is an all-in-one everyday tools hub.\nIt includes calculators & converters.\nFast and super cute to use!');
+  const [text2, setText2] = useState('ToolNestz is an all-in-one everyday tools hub.\nIt includes calculators & converters.\nFast and super smooth to use!');
 
   const lines1 = text1.split('\n');
   const lines2 = text2.split('\n');

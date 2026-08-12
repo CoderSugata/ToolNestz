@@ -58,15 +58,15 @@ export function SpeedConverter() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', textAlign: 'center' }}>
           <div>
             <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>5k Race</div>
-            <div style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--accent-cute-pink)' }}>{time5k}</div>
+            <div style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--accent-pink)' }}>{time5k}</div>
           </div>
           <div>
             <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>10k Race</div>
-            <div style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--accent-cute-pink)' }}>{time10k}</div>
+            <div style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--accent-pink)' }}>{time10k}</div>
           </div>
           <div>
             <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Half Marathon</div>
-            <div style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--accent-cute-teal)' }}>{timeHalf}</div>
+            <div style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--accent-teal)' }}>{timeHalf}</div>
           </div>
           <div>
             <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Full Marathon</div>

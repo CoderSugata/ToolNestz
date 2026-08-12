@@ -33,7 +33,7 @@ export function WaterIntakeTracker() {
 
       <div className="output-box" style={{ marginTop: '1.25rem', textAlign: 'center' }}>
         <div className="output-box-header">DAILY HYDRATION GOAL</div>
-        <div className="output-value" style={{ fontSize: '2.2rem', color: 'var(--accent-cute-cyan)' }}>
+        <div className="output-value" style={{ fontSize: '2.2rem', color: 'var(--accent-cyan)' }}>
           {targetLiters} Liters ({targetGlasses} Cups)
         </div>
       </div>
@@ -53,8 +53,8 @@ export function WaterIntakeTracker() {
                 width: '36px',
                 height: '44px',
                 borderRadius: '6px 6px 12px 12px',
-                border: '2px solid var(--accent-cute-cyan)',
-                background: idx < glassesLogged ? 'var(--accent-cute-cyan)' : 'transparent',
+                border: '2px solid var(--accent-cyan)',
+                background: idx < glassesLogged ? 'var(--accent-cyan)' : 'transparent',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -63,7 +63,7 @@ export function WaterIntakeTracker() {
               }}
               title={`Glass ${idx + 1}`}
             >
-              <Droplet size={18} color={idx < glassesLogged ? '#ffffff' : 'var(--accent-cute-cyan)'} />
+              <Droplet size={18} color={idx < glassesLogged ? '#ffffff' : 'var(--accent-cyan)'} />
             </div>
           ))}
         </div>

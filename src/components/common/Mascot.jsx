@@ -21,13 +21,13 @@ export function Mascot({ size = 80, mood = 'happy', message = '' }) {
         {/* Belly */}
         <circle cx="60" cy="68" r="24" fill="#ffffff" opacity="0.9" />
 
-        {/* Cute Eyes */}
+        {/* Mascot Eyes */}
         <circle cx="48" cy="54" r="6" fill="#0f172a" />
         <circle cx="72" cy="54" r="6" fill="#0f172a" />
         <circle cx="50" cy="52" r="2.2" fill="#ffffff" />
         <circle cx="74" cy="52" r="2.2" fill="#ffffff" />
 
-        {/* Cute Cheeks */}
+        {/* Mascot Cheeks */}
         <circle cx="40" cy="62" r="4.5" fill="#ec4899" opacity="0.6" />
         <circle cx="80" cy="62" r="4.5" fill="#ec4899" opacity="0.6" />
 

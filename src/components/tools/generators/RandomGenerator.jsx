@@ -93,7 +93,7 @@ export function RandomGenerator() {
           {pickedItem && (
             <div className="output-box" style={{ textAlign: 'center' }}>
               <div className="output-box-header">SELECTED WINNER</div>
-              <div className="output-value" style={{ fontSize: '2rem', color: 'var(--accent-cute-pink)' }}>{pickedItem}</div>
+              <div className="output-value" style={{ fontSize: '2rem', color: 'var(--accent-pink)' }}>{pickedItem}</div>
             </div>
           )}
         </div>

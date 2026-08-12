@@ -7,7 +7,7 @@ export function MarkdownPreviewer() {
 
 ## Features
 - **35+ Essential Tools**: Calculators, Converters, Generators & Tech
-- **Cute & Friendly UI**: Built for everyone from kids to pros
+- **Simple & Modern UI**: Built for everyone from kids to pros
 - *100% Client-Side*: Privacy guaranteed!
 
 ### Sample Code

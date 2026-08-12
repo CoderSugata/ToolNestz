@@ -45,7 +45,7 @@ export function LoanCalculator() {
         </div>
         <div className="stat-card">
           <div className="stat-label">Total Interest</div>
-          <div className="stat-value" style={{ color: 'var(--accent-cute-pink)' }}>${totalInterest > 0 ? totalInterest.toFixed(2) : '0.00'}</div>
+          <div className="stat-value" style={{ color: 'var(--accent-pink)' }}>${totalInterest > 0 ? totalInterest.toFixed(2) : '0.00'}</div>
         </div>
         <div className="stat-card">
           <div className="stat-label">Total Payment</div>
@@ -62,11 +62,11 @@ export function LoanCalculator() {
         <div style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.5rem' }}>PRINCIPAL VS INTEREST BREAKDOWN</div>
         <div style={{ height: '16px', borderRadius: 'var(--radius-full)', background: 'var(--border-color)', display: 'flex', overflow: 'hidden' }}>
           <div style={{ width: `${100 - interestPct}%`, background: 'var(--accent-primary)' }} title="Principal" />
-          <div style={{ width: `${interestPct}%`, background: 'var(--accent-cute-pink)' }} title="Interest" />
+          <div style={{ width: `${interestPct}%`, background: 'var(--accent-pink)' }} title="Interest" />
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', marginTop: '0.5rem', fontWeight: 600 }}>
           <span style={{ color: 'var(--accent-primary)' }}>Principal: ${p.toLocaleString()}</span>
-          <span style={{ color: 'var(--accent-cute-pink)' }}>Interest: ${Math.round(totalInterest).toLocaleString()}</span>
+          <span style={{ color: 'var(--accent-pink)' }}>Interest: ${Math.round(totalInterest).toLocaleString()}</span>
         </div>
       </div>
 

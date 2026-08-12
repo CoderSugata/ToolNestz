@@ -46,7 +46,7 @@ export function DiscountCalculator() {
         </div>
         <div className="stat-card">
           <div className="stat-label">Total You Save</div>
-          <div className="stat-value" style={{ color: 'var(--accent-cute-pink)' }}>${totalSaved.toFixed(2)}</div>
+          <div className="stat-value" style={{ color: 'var(--accent-pink)' }}>${totalSaved.toFixed(2)}</div>
         </div>
         <div className="stat-card">
           <div className="stat-label">Sales Tax Added</div>

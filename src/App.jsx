@@ -93,12 +93,12 @@ export function App() {
           </div>
         ) : (
           <div>
-            {/* Cute Hero Banner */}
+            {/* Hero Banner */}
             <div className="hero-banner">
               <div className="hero-text">
                 <h1>ToolNestz 🪹 Everyday Tools Hub</h1>
                 <p>
-                  35+ cute, fast, and simple online tools. Calculators, converters, timers, generators & developer tools with 100% client-side privacy.
+                  35+ fast, modern, and simple online tools. Calculators, converters, timers, generators & developer tools with 100% client-side privacy.
                 </p>
               </div>
               <Mascot size={110} message="Hi friend! Which tool would you like to use today?" />
@@ -120,8 +120,8 @@ export function App() {
             {/* Favorite Starred Tools Section */}
             {activeCategory === 'all' && favoriteTools.length > 0 && (
               <div style={{ marginBottom: '2rem' }}>
-                <h2 style={{ fontSize: '1.2rem', fontWeight: 800, marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-cute-amber)' }}>
-                  <Star size={20} fill="var(--accent-cute-amber)" /> Favorite Tools ({favoriteTools.length})
+                <h2 style={{ fontSize: '1.2rem', fontWeight: 800, marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-amber)' }}>
+                  <Star size={20} fill="var(--accent-amber)" /> Favorite Tools ({favoriteTools.length})
                 </h2>
                 <div className="tools-grid">
                   {favoriteTools.map(tool => (

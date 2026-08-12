@@ -21,20 +21,20 @@
   --accent-primary-hover: #4f46e5;
   --accent-primary-light: #e0e7ff;
 
-  --accent-cute-pink: #ec4899;
-  --accent-cute-pink-light: #fce7f3;
+  --accent-pink: #ec4899;
+  --accent-pink-light: #fce7f3;
 
-  --accent-cute-teal: #14b8a6;
-  --accent-cute-teal-light: #ccfbf1;
+  --accent-teal: #14b8a6;
+  --accent-teal-light: #ccfbf1;
 
-  --accent-cute-amber: #f59e0b;
-  --accent-cute-amber-light: #fef3c7;
+  --accent-amber: #f59e0b;
+  --accent-amber-light: #fef3c7;
 
-  --accent-cute-cyan: #06b6d4;
-  --accent-cute-cyan-light: #cffafe;
+  --accent-cyan: #06b6d4;
+  --accent-cyan-light: #cffafe;
 
-  --accent-cute-rose: #f43f5e;
-  --accent-cute-rose-light: #ffe4e6;
+  --accent-rose: #f43f5e;
+  --accent-rose-light: #ffe4e6;
 
   --accent-success: #10b981;
   --accent-warning: #f59e0b;
@@ -43,7 +43,7 @@
   --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.03);
   --shadow-md: 0 8px 16px -4px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 16px 32px -8px rgba(0, 0, 0, 0.08);
-  --shadow-cute: 0 10px 25px -5px rgba(99, 102, 241, 0.15);
+  --shadow-accent: 0 10px 25px -5px rgba(99, 102, 241, 0.15);
 
   --radius-sm: 10px;
   --radius-md: 16px;
@@ -73,25 +73,25 @@
   --accent-primary-hover: #6366f1;
   --accent-primary-light: rgba(129, 140, 248, 0.15);
 
-  --accent-cute-pink: #f472b6;
-  --accent-cute-pink-light: rgba(244, 114, 182, 0.15);
+  --accent-pink: #f472b6;
+  --accent-pink-light: rgba(244, 114, 182, 0.15);
 
-  --accent-cute-teal: #2dd4bf;
-  --accent-cute-teal-light: rgba(45, 212, 191, 0.15);
+  --accent-teal: #2dd4bf;
+  --accent-teal-light: rgba(45, 212, 191, 0.15);
 
-  --accent-cute-amber: #fbbf24;
-  --accent-cute-amber-light: rgba(251, 191, 36, 0.15);
+  --accent-amber: #fbbf24;
+  --accent-amber-light: rgba(251, 191, 36, 0.15);
 
-  --accent-cute-cyan: #22d3ee;
-  --accent-cute-cyan-light: rgba(34, 211, 238, 0.15);
+  --accent-cyan: #22d3ee;
+  --accent-cyan-light: rgba(34, 211, 238, 0.15);
 
-  --accent-cute-rose: #fb7185;
-  --accent-cute-rose-light: rgba(251, 113, 133, 0.15);
+  --accent-rose: #fb7185;
+  --accent-rose-light: rgba(251, 113, 133, 0.15);
 
   --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
   --shadow-md: 0 8px 16px -4px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 16px 32px -8px rgba(0, 0, 0, 0.5);
-  --shadow-cute: 0 10px 25px -5px rgba(129, 140, 248, 0.2);
+  --shadow-accent: 0 10px 25px -5px rgba(129, 140, 248, 0.2);
 }
 
 * {
@@ -150,7 +150,7 @@ input, textarea, select {
   }
 }
 
-/* Cute Mascot Banner */
+/* Hero Banner */
 .hero-banner {
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
   border: 1px solid var(--border-color);
@@ -177,7 +177,7 @@ input, textarea, select {
 .hero-text h1 {
   font-size: 2.2rem;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-cute-pink));
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-pink));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0.5rem;
@@ -207,7 +207,7 @@ input, textarea, select {
 
 .search-trigger-btn:hover {
   border-color: var(--accent-primary);
-  box-shadow: var(--shadow-cute);
+  box-shadow: var(--shadow-accent);
   color: var(--text-primary);
 }
 
@@ -261,7 +261,7 @@ input, textarea, select {
 .tool-card:hover {
   transform: translateY(-4px);
   border-color: var(--accent-primary);
-  box-shadow: var(--shadow-cute);
+  box-shadow: var(--shadow-accent);
 }
 
 .tool-card-header {
@@ -295,13 +295,13 @@ input, textarea, select {
 }
 
 .fav-btn:hover {
-  color: var(--accent-cute-amber);
-  background: var(--accent-cute-amber-light);
+  color: var(--accent-amber);
+  background: var(--accent-amber-light);
 }
 
 .fav-btn.is-favorite {
-  color: var(--accent-cute-amber);
-  fill: var(--accent-cute-amber);
+  color: var(--accent-amber);
+  fill: var(--accent-amber);
 }
 
 .tool-card-title {

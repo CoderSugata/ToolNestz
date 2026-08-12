@@ -20,7 +20,7 @@ export function Footer({ onSelectCategory }) {
               ToolNestz 🪹
             </h3>
             <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
-              Your cute, fast, and secure everyday tools hub. 35+ client-side calculators, converters, generators, and productivity utilities.
+              Your fast, modern, and secure everyday tools hub. 35+ client-side calculators, converters, generators, and productivity utilities.
             </p>
           </div>
 
@@ -48,12 +48,12 @@ export function Footer({ onSelectCategory }) {
                 <span>100% Client-Side Privacy</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <Zap size={16} color="var(--accent-cute-amber)" />
+                <Zap size={16} color="var(--accent-amber)" />
                 <span>Instant Offline Calculations</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <Heart size={16} color="var(--accent-cute-pink)" />
-                <span>Child-Friendly & Simple UI</span>
+                <Heart size={16} color="var(--accent-pink)" />
+                <span>Simple & Modern UI</span>
               </div>
             </div>
           </div>

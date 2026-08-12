@@ -64,7 +64,7 @@ export function TipCalculator() {
         </div>
         <div className="stat-card">
           <div className="stat-label">Total Bill</div>
-          <div className="stat-value" style={{ color: 'var(--accent-cute-pink)' }}>${rawTotal.toFixed(2)}</div>
+          <div className="stat-value" style={{ color: 'var(--accent-pink)' }}>${rawTotal.toFixed(2)}</div>
         </div>
         <div className="stat-card">
           <div className="stat-label">Tip / Person</div>
