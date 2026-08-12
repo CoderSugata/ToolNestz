@@ -1,0 +1,245 @@
+/* Specific Tool Component Styling */
+
+/* Scientific Calculator Keypad */
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 500px) {
+  .calc-grid-sci {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.calc-btn {
+  padding: 0.85rem 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.calc-btn:hover {
+  background: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.calc-btn:active {
+  transform: translateY(0);
+}
+
+.calc-btn-op {
+  background: var(--accent-primary-light);
+  color: var(--accent-primary);
+  font-weight: 700;
+}
+
+.calc-btn-action {
+  background: var(--accent-cute-pink-light);
+  color: var(--accent-cute-pink);
+  font-weight: 700;
+}
+
+.calc-btn-equal {
+  background: var(--accent-primary);
+  color: #ffffff;
+  font-weight: 800;
+  grid-column: span 2;
+}
+
+.calc-btn-equal:hover {
+  background: var(--accent-primary-hover);
+}
+
+/* Calculator Screen Display */
+.calc-display {
+  background: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  text-align: right;
+  margin-bottom: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.calc-history {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  min-height: 1.25rem;
+  word-break: break-all;
+}
+
+.calc-current {
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  word-break: break-all;
+  margin-top: 0.25rem;
+}
+
+/* BMI Gauge Indicator Bar */
+.bmi-gauge-bar {
+  height: 14px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(to right, #3b82f6 0%, #10b981 30%, #f59e0b 65%, #ef4444 100%);
+  position: relative;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.bmi-pointer {
+  position: absolute;
+  top: -6px;
+  width: 26px;
+  height: 26px;
+  background: #ffffff;
+  border: 3px solid var(--accent-primary);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: left 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Timer Circular Ring & Large Display */
+.timer-display {
+  font-family: var(--font-mono);
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  color: var(--text-primary);
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media (min-width: 640px) {
+  .timer-display {
+    font-size: 4.5rem;
+  }
+}
+
+.timer-ring-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Grid Stats Box */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stat-card {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.stat-value {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent-primary);
+}
+
+/* Color Preview Swatches */
+.color-preview-box {
+  height: 120px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  box-shadow: var(--shadow-md);
+  transition: background-color 0.2s ease;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.palette-swatch {
+  height: 50px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  transition: transform var(--transition-fast);
+}
+
+.palette-swatch:hover {
+  transform: scale(1.08);
+}
+
+/* Aspect Ratio Visual Box */
+.aspect-preview-container {
+  width: 100%;
+  height: 220px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.aspect-preview-box {
+  background: var(--accent-primary-light);
+  border: 2px dashed var(--accent-primary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-primary);
+  font-weight: 700;
+  font-family: var(--font-mono);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  max-width: 100%;
+  max-height: 100%;
+}
