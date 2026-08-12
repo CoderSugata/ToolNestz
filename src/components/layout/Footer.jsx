@@ -70,7 +70,24 @@ export function Footer({ onSelectCategory }) {
           fontSize: '0.8rem',
           color: 'var(--text-muted)'
         }}>
-          <div>© {new Date().getFullYear()} ToolNestz. Built with love for general users & curious minds.</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <span>© {new Date().getFullYear()} ToolNestz. Made with ❤️ by</span>
+            <a
+              href="https://github.com/CoderSugata"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: 'var(--accent-primary)',
+                fontWeight: 700,
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.25rem'
+              }}
+            >
+              Sugata Mondal
+            </a>
+          </div>
         </div>
       </div>
     </footer>
