@@ -27,7 +27,7 @@ export function ToolHeader({ tool, isFavorite, onToggleFavorite, onReset, onBack
         </div>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-            <h1 style={{ fontSize: '1.5rem', fontWeight: 800 }}>{tool.title}</h1>
+            <h1 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)' }}>{tool.title}</h1>
             <span className="tool-category-badge">{tool.category}</span>
           </div>
           <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>

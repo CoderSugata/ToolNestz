@@ -54,7 +54,7 @@ export function CountdownTimer() {
       <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '1.5rem' }}>
         {[1, 3, 5, 10, 15, 25, 30, 60].map(m => (
           <button key={m} className={`pill-btn ${totalSeconds === m * 60 ? 'active' : ''}`} onClick={() => handleSetPreset(m)}>
-            {m} {m === 60 ? 'Hour' : 'Min'}
+            {m} Min
           </button>
         ))}
       </div>
