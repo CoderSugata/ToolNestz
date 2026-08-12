@@ -11,11 +11,11 @@
   --bg-glass: rgba(255, 255, 255, 0.7);
 
   --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #94a3b8;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
 
-  --border-color: #e2e8f0;
-  --border-hover: #cbd5e1;
+  --border-color: #cbd5e1;
+  --border-hover: #94a3b8;
 
   --accent-primary: #6366f1;
   --accent-primary-hover: #4f46e5;
@@ -114,6 +114,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
+  color: var(--text-primary);
   line-height: 1.2;
 }
 

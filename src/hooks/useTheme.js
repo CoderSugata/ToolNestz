@@ -2,8 +2,7 @@ import { useEffect } from 'react';
 import { useLocalStorage } from './useLocalStorage';
 
 export function useTheme() {
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('toolnestz_theme', prefersDark ? 'dark' : 'light');
+  const [theme, setTheme] = useLocalStorage('toolnestz_theme', 'light');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
