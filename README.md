@@ -1,6 +1,12 @@
 # ToolNestz 🪹
 
-> **ToolNestz** is a cute, modern, responsive, and privacy-first everyday tools hub. Features **35+ fully implemented client-side tools** across Calculators, Converters, Date & Time, Text, Generators, Developer Utilities, and Everyday Tools.
+> **ToolNestz** is a modern, responsive, and privacy-first everyday tools hub. Features **35+ fully implemented client-side tools** across Calculators, Converters, Date & Time, Text, Generators, Developer Utilities, and Everyday Tools.
+
+<p align="center">
+  <a href="https://toolnestz.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Website-ToolNestz-8B5CF6?style=for-the-badge&logoColor=white" alt="Live Wbsite">
+  </a>
+</p>
 
 ---
 
